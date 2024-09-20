@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film İnceleme Uygulamasi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Film İnceleme Uygulamasi</h1>
+    
+    <div class="form-container">
+        <form id="review-form">
+            <label for="movie">Film Başliği:</label>
+            <input type="text" id="movie" name="movie" required>
+            
+            <label for="review">İnceleme:</label>
+            <textarea id="review" name="review" required></textarea>
+            
+            <button type="submit">İncelemeyi Gönder</button>
+        </form>
+    </div>
+
+    <h2>Gönderilen İncelemeler:</h2>
+    <div id="reviews-container">
+        <ul id="reviews-list"></ul>
+    </div>
+
+    <script src="style.js"></script>
+</body>
+</html>
